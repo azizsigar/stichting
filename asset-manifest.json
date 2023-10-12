@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/azizsigar/stichting/static/css/main.0dc714e4.css",
+    "main.css": "/azizsigar/stichting/static/css/main.dedc43f8.css",
     "main.js": "/azizsigar/stichting/static/js/main.49ac8333.js",
     "static/js/787.075e5927.chunk.js": "/azizsigar/stichting/static/js/787.075e5927.chunk.js",
     "index.html": "/azizsigar/stichting/index.html",
-    "main.0dc714e4.css.map": "/azizsigar/stichting/static/css/main.0dc714e4.css.map",
+    "main.dedc43f8.css.map": "/azizsigar/stichting/static/css/main.dedc43f8.css.map",
     "main.49ac8333.js.map": "/azizsigar/stichting/static/js/main.49ac8333.js.map",
     "787.075e5927.chunk.js.map": "/azizsigar/stichting/static/js/787.075e5927.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0dc714e4.css",
+    "static/css/main.dedc43f8.css",
     "static/js/main.49ac8333.js"
   ]
 }
