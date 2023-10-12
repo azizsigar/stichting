@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0dc714e4.css",
-    "main.js": "/static/js/main.ccb98a5a.js",
-    "static/js/787.075e5927.chunk.js": "/static/js/787.075e5927.chunk.js",
-    "index.html": "/index.html",
-    "main.0dc714e4.css.map": "/static/css/main.0dc714e4.css.map",
-    "main.ccb98a5a.js.map": "/static/js/main.ccb98a5a.js.map",
-    "787.075e5927.chunk.js.map": "/static/js/787.075e5927.chunk.js.map"
+    "main.css": "/azizsigar/stichting/static/css/main.0dc714e4.css",
+    "main.js": "/azizsigar/stichting/static/js/main.49ac8333.js",
+    "static/js/787.075e5927.chunk.js": "/azizsigar/stichting/static/js/787.075e5927.chunk.js",
+    "index.html": "/azizsigar/stichting/index.html",
+    "main.0dc714e4.css.map": "/azizsigar/stichting/static/css/main.0dc714e4.css.map",
+    "main.49ac8333.js.map": "/azizsigar/stichting/static/js/main.49ac8333.js.map",
+    "787.075e5927.chunk.js.map": "/azizsigar/stichting/static/js/787.075e5927.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0dc714e4.css",
-    "static/js/main.ccb98a5a.js"
+    "static/js/main.49ac8333.js"
   ]
 }
