@@ -1,15 +1,20 @@
 import React from 'react'
-import {  Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 
 export default function Navbar() {
   return (
-    <nav>
-      <Link to='/' > home </Link>
-      <Link to='/about' > about </Link>
-      <Link to='/activities' > activities </Link>
-      <Link to='/blog' > blog </Link>
-      <Link to='/contact' > contact </Link>
-    </nav>
+    < div className='navbar' >
+      <div>
+        <img src='https://play-lh.googleusercontent.com/ahJtMe0vfOlAu1XJVQ6rcaGrQBgtrEZQefHy7SXB7jpijKhu1Kkox90XDuH8RmcBOXNn' />
+      </div>
+      <nav>
+        <NavLink to='/' > home </NavLink>
+        <NavLink to='/about' > about </NavLink>
+        <NavLink to='/activities' > activities </NavLink>
+        <NavLink to='/contact' > contact </NavLink>
+      </nav>
+
+    </div>
   )
 }

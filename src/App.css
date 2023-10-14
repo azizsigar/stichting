@@ -1,10 +1,86 @@
-body, a{
+body,
+a {
   text-align: center;
-  background-color:cornflowerblue;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-color: indianred;
-text-decoration: none;
+  text-decoration: none;
+
 
 }
+
+a {
+  color: black;
+  border: 1px black solid;
+  box-shadow: 2px 2px black;
+  padding: 5px;
+}
+
+a:hover {
+  box-shadow: 4px 4px black;
+  transform: scale(1.1);
+  transition: 0.5s;
+
+
+}
+
+.navbar:active {
+  color: wheat;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: powderblue;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  width: 4rem;
+  height: 4rem;
+}
+
+nav {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-post{
+  border: 2px solid black;
+  background-color: cornflowerblue;
+  margin: 1rem;
+  padding: 0.5rem;
+  box-shadow: 2px 2px black;
+}
+.main-post:hover{
+  box-shadow: 4px 4px black;
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+
+}
+/* card */
+.card {
+  width:15rem;
+  border: 1px solid black;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.5s ease; /* Geçiş efekti */
+  margin: auto;
+  margin-top: 5px;
+  box-shadow: 2px 2px black;
+}
+.card-div{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+
+}
+.card img{
+  width: 15rem;
+  height: 10rem;
+}
+
+
