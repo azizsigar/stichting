@@ -13,6 +13,7 @@ export default function Navbar() {
         <NavLink to='/about' > about </NavLink>
         <NavLink to='/activities' > activities </NavLink>
         <NavLink to='/contact' > contact </NavLink>
+        <NavLink to='/register' > My Account</NavLink>
       </nav>
 
     </div>
