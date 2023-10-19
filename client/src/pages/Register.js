@@ -2,10 +2,12 @@ import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
  import axios from 'axios';
  import { toast } from "react-hot-toast";
-//  import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export default function Register() {
+  const navigate = useNavigate();
+
 const [data,setData] = useState({
   name: '',
   email: '',
@@ -21,6 +23,8 @@ try {
 if(data.error){
   toast.error(data.error)
 }
+else{ navigate('/login')
+toast.success('account created please login')}
 } catch (error) {
   
 }
