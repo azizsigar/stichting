@@ -21,7 +21,7 @@ const [data,setData]=useState({
             }
             else{
                 setData({})
-                navigate('/')
+                navigate('/dashboard')
                 toast.success('wellcome')
             }
         } catch (error) {
