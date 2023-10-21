@@ -13,7 +13,8 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import { UserContextProvider} from './context/userContext';
 import DashboardUser from './pages/DashboardUser';
-import Profile from './pages/Profile';
+import AdminLogin from './pages/AdminLogin';
+// import Profile from './pages/Profile';
 
 
 axios.defaults.baseURL = 'http://localhost:8000'; // baseURL olarak ayarlanır
@@ -39,6 +40,7 @@ export default function App() {
           <Route path='/contact' element={<Contact />} />
           <Route path='/register' element={<Register />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/adminLogin' element={<AdminLogin />} />
           <Route path='/dashboard' element={<DashboardUser />} />
         </Routes>
         <Footer />
